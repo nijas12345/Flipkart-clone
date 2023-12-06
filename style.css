@@ -1,0 +1,465 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    background-color: #f0f5ff;
+}
+header{
+    height: 67px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 200px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f0f5ff;
+    height: 40px;
+    border-radius: 8px;
+    margin-left:23px;
+    width: 816.25px;
+    
+}
+.input-name{
+    border:none;
+    outline: none;
+    background-color:#f0f5ff;
+    color:gray;
+    font-size: 14px;
+    width: 550px; 
+    border-radius: 8px;
+
+       
+}
+input {
+    height: 40px;
+    width: 200.25px; 
+}
+.search-icon{
+height: 44px;
+width:55px;
+justify-content: center;
+border-radius: 8px;
+}
+i{
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: grey;
+
+}
+.login{
+    display:flex ;
+    width: 200px;
+    margin-left: 30px;
+}
+.login:hover{
+color: blue;
+}
+.login-text{
+    padding-left: 5px;
+    padding-top: 4px;
+}
+.cart{
+    margin-left: -109px;
+    margin-top: -12px;
+}
+.seller{
+    margin-left: 41px;
+    margin-top: -12px;
+}
+.menu{
+    margin-left:50px;
+    margin-top: -15px;
+}
+main{
+    background-color: #f1f2f4;
+    width: 100%;
+    height: 200%;
+
+}
+
+.body-section{
+    height: 788px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+.left-section{
+    width:10%;
+    height: 788px;    
+    background-color: #f1f2f4;
+    display: inline-block;
+}
+.middle-section{
+    width:80%;
+    height: 788px;
+    background-color: #f1f2f4;
+}
+.right-section{
+    width: 10%;
+    height: 788px;
+    background-color: #f1f2f4;
+}
+.items-section{
+    display: flex;
+    width:100%;
+    height:127px;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.items-sectionleft{
+    width: 150px;
+    height: 126px;
+    background-color: white;
+}
+.grocery{
+    width: 130px;
+    height: 126px;
+    padding-top: 23px; 
+    cursor: pointer;
+}
+.grocery-text{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.mobiles{
+    width: 122px;
+    height:126px;
+    padding-top: 23px;
+    cursor: pointer;
+}
+.mobiles-text{
+    padding-top: 13px;
+    padding-left: 7px;
+}
+.fashion{
+    width:122px;
+    height: 126px;
+    margin-top: 20px;
+}
+.fashion-ti{
+    display: flex;
+}
+.fashion-ti:hover{
+    color: blue;
+    cursor: pointer;
+}
+.fashion-text{
+    padding-top: 12px;
+}
+.fashion-texticon{
+margin-left: -7px;
+margin-top: -2px;
+}
+.electronics{
+    width:123.98px;
+    height:126.17px;
+    padding-top: 24px;
+}
+.electronics-image{
+    padding-top: 10px;
+    
+}
+.electronics-ti{
+    display: flex;
+}
+.electronics-ti:hover{
+    color: blue;
+    cursor: pointer;
+}
+.electronics-icon{
+    margin-top: -15px;
+    margin-left: -8px
+}
+.homes{
+    width: 166.17px;
+    height: 126px;
+    padding-top: 25px;
+}
+.image-homes{
+    padding-left: 30px;
+}
+.homes-ti{
+    display: flex;
+}
+.homes-ti:hover{
+    color:blue;
+    cursor: pointer;
+}
+.homes-text{
+    padding-top: 11px;
+}
+.homes-texticon{
+    margin-left: -7px;
+    margin-top: -3px;
+}
+
+.appliances{
+    width: 122px;
+    height: 126px;
+    padding-top: 24px;
+    cursor: pointer;
+}
+.appliances-text{
+    padding-top: 15px;
+}
+.travel{
+    padding-top: 22px;
+      width:122px;
+      height:126px;
+      cursor: pointer;
+}
+.travel-text{
+    padding-left: 17px;
+    padding-top: 15px;
+}
+.beauty{
+    width: 187.83px;
+    height:126px;
+    padding-top: 21px;
+    cursor: pointer;
+}
+.beauty-image{
+    padding-left: 25px;
+}
+.beauty-ti{
+    display: flex;   
+}
+.beauty-ti:hover{
+    color: blue;
+}
+.beauty-text{
+    padding-top: 20px;
+}
+.beauty-texticon{
+    margin-left: -5px;
+    margin-top:5px;
+}
+.two-wheelers{
+    width: 170.48px;
+    height: 126px;
+    padding-top: 21px;
+    cursor: pointer;
+}
+.two-wheeler-ti{
+    display: flex;
+    padding-top: 5px;
+}
+.two-wheeler-ti:hover{
+    color: blue;
+}
+.twowheeler-image{
+    padding-left: -12px;
+}
+.twowheeler-text{
+    margin-top: 15px;
+}
+.twowheeler-texticon{
+    margin-left: -5px;
+}
+.items-sectionright{
+    width: 150px;
+    height: 126px;
+    padding-top: 10px;
+}
+span{
+    font-family: fallback-inter_semi_bold,Arial,sans-serif;
+    font-size: 14px;
+    display: flex;
+    font-weight: bold;
+}
+.highlight{
+    width: 100%;
+    height:265.39px;
+    margin-top: 18px;
+    display: inline-block
+}
+.best-electronics{
+width: 100%;
+height: 344px;
+background-color: white;
+margin-top: 15px;
+
+
+}
+.best-electronicstext{
+    width:100%;
+    height: 80px;
+    padding: 15px;
+}
+.best-electronicsspan{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -.02px;
+
+}
+.bestelectronics-imagebox{
+    height: 264px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-top: -45px;
+    
+}
+.ecamera{
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;  
+}
+.ecamera-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+
+}
+.ecprice{
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
+.ependrive{
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.ependrive-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+}
+.epprice{
+    padding-left: 61px;
+    margin-top: -10px;
+}
+.eprinter{
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.eprinter-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+}
+.eprprice{
+    padding-left: 50px;
+    margin-top: -10px;
+}
+.epowerbank{
+    
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;
+} 
+.epowerbank-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+}
+.epwprice{
+    padding-left: 50px;
+    margin-top: -10px;
+
+}
+.eradio{
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.eradio-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+}
+.erprice{
+    padding-left: 50px;
+    margin-top: -10px;
+}
+.eearphone{
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.eearphone-image{
+    margin-top: 5px;
+}
+.eearphone-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+}
+.eeprice{
+    padding-left: 50px;
+    margin-top: -10px;
+}
+.ekeyboard{
+    width: 200px;
+    height:252px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.ekeyboard-text{
+    padding-left: 60px;
+    padding-top: 45px;
+    font-weight: lighter;
+}
+.ekprice{
+    padding-left: 50px;
+    margin-top: -10px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: black;
+    margin-top: -15px;
+}
+.panel{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+} 
+ul p{
+    color: gray;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: lighter;
+    
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-top: 10px;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+adress{
+    display: block;
+}
